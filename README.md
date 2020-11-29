@@ -7,7 +7,7 @@
 - [Variáveis](#variáveis)
 - [Tipos de variáveis](#tipos-de-variáveis)
 - [Operadores](#operadores)
-– [Condicionais](#condicionais)
+- [Condicionais](#condicionais)
 - [Funções](#funções)
 - [Arrays](#arrays)
 - [Loops](#loops)
