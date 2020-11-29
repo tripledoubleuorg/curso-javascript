@@ -9,7 +9,7 @@
 - [Operadores](#☛-operadores)
 - [Condicionais](#☛-condicionais)
 - [Funções](#☛-funções)
-- [Arrays](#☛-arrays)
+- [Arrays](#arrays)
 - [Loops](#☛-loops)
 
 
