@@ -1,7 +1,7 @@
 # Javascript
 
 ## Conteúdos
-- [Introdução ao Javascript](#☛-☛-introdução-ao-javascript)
+- [Introdução ao Javascript](#☛-introdução-ao-javascript)
 - [Adicionar Javascript](#☛-adicionar-javascript)
 - [Primeiro Javascript](#☛-primeiro-javascript)
 - [Variáveis](#☛-variáveis)
@@ -37,7 +37,7 @@ O código Javascript também pode ser escrito num ficheiro externo com a extens�
 </html>
 ````
 
-## ☛  Variáveis
+## ☛ Variáveis
 "Variável" é um recurso em programação para armazenar um valor na memória do computador durante a execução de um algoritmo. 
 
 Em JS uma variável é declarada pela expressão `var`, `let` ou `const`.
@@ -104,7 +104,7 @@ Variável vectorial que armazena vários valores de um objecto.
     };
 ````
 
-## Operadores 
+## ☛ Operadores 
 
 - `+` adição 
 - `-` subtração
@@ -114,7 +114,7 @@ Variável vectorial que armazena vários valores de um objecto.
 - `++` incrementação
 - `--` decrementação
 
-## Condicionais
+## ☛ Condicionais
 Uma condicional avalia se determinada afirmação é verdadeira ou falsa. No Javascript a condicional mais comum é a `if... else`.
 
 ### Boolean
@@ -137,7 +137,7 @@ if (condicao1) {
 }
 `````
 
-## Funções
+## ☛ Funções
 As funções funcionam como acções no Javascript. Elas permitem executar determinado código e podem ter argumentos e retornar determidado valor. As funções são declaradas pelo termo `function` e têm de ser chamadas ou executadas.
 `````javascript
 function nomeFuncao(){
@@ -163,7 +163,7 @@ function soma(x, y){
     return soma;
 }
 `````
-## Arrays
+## ☛ Arrays
 Um array é uma estrutura de dados armazenados numa única variável.
 
 ### Introdução ao Arrays
@@ -230,7 +230,7 @@ array.splice(indice[, deleteCount[, elemento1[, ...[, elementoN]]])
 ````
 
 
-## Loops
+## ☛ Loops
 Loops são estruturas de repetição.
 
 ### While
