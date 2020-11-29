@@ -1,9 +1,23 @@
 # Javascript
 
+## Conteúdos
+- [Introdução ao Javascript](#introdução-ao-javascript)
+- [Adicionar Javascript](#adicionar-javascript)
+- [Primeiro Javascript](#primeiro-javascript)
+- [Variáveis](#variáveis)
+- [Tipos de variáveis](#tipos-de-variáveis)
+- [Operadores](#operadores)
+– [Condicionais](#condicionais)
+- [Funções](#funções)
+- [Arrays](#arrays)
+- [Loops](#loops)
+
+
+
 ## Introdução ao Javascript
 Javascript é uma linguagem de programação "client-side" que permite adicionar comportamentos aos elementos HTML.
 
-## Adicionar o Javascript
+## Adicionar Javascript
 ### Interno
 O código Javascript pode ser adicionado a uma página HTML dentro da tag `<script>[conteúdo javascript]</script>`. Preferecialmente, este código deve ser colocado antes de se fechar o `</body>` para garantir que o HTML está todo renderizado antes do JS começar a correr.
 
@@ -37,7 +51,7 @@ var/let/const identificador = valor;
 Os indentificadores podem começar com uma letra, $ ou _; Não podem começar com números; Não podem conter espaços; Não podem ser palavras que já façam parte da linguagem js (ex: alert) [lista de palavras reservadas](https://www.w3schools.com/js/js_reserved.asp).
 
 
-### Exemple
+### Exemplo
 ````javascript
     var x = 5;
     var y = 10;
@@ -100,11 +114,10 @@ Variável vectorial que armazena vários valores de um objecto.
 - `++` incrementação
 - `--` decrementação
 
-## Boolean
-
 ## Condicionais
 Uma condicional avalia se determinada afirmação é verdadeira ou falsa. No Javascript a condicional mais comum é a `if... else`.
 
+### Boolean
 `````javascript
 if (condicao) {
   //se a condição for verdadeira, executa este código
@@ -217,7 +230,7 @@ array.splice(indice[, deleteCount[, elemento1[, ...[, elementoN]]])
 ````
 
 
-## Loos
+## Loops
 Loops são estruturas de repetição.
 
 ### While
