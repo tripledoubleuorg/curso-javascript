@@ -1,7 +1,7 @@
 # Javascript
 
 ## Conteúdos
-- [Introdução ao Javascript](#introdução-ao-javascript)
+- [Introdução ao Javascript](#☛-introdução-ao-javascript)
 - [Adicionar Javascript](#adicionar-javascript)
 - [Primeiro Javascript](#primeiro-javascript)
 - [Variáveis](#variáveis)
@@ -14,17 +14,17 @@
 
 
 
-## Introdução ao Javascript
+## ☛  Introdução ao Javascript
 Javascript é uma linguagem de programação "client-side" que permite adicionar comportamentos aos elementos HTML.
 
-## Adicionar Javascript
+## ☛ Adicionar Javascript
 ### Interno
 O código Javascript pode ser adicionado a uma página HTML dentro da tag `<script>[conteúdo javascript]</script>`. Preferecialmente, este código deve ser colocado antes de se fechar o `</body>` para garantir que o HTML está todo renderizado antes do JS começar a correr.
 
 ### Externo
 O código Javascript também pode ser escrito num ficheiro externo com a extensão `.js` e adicionado através do atributo `src=""` à tag `<script src="ficheiro.js"></script>`.
 
-## Primeiro Javascript
+## ☛ Primeiro Javascript
 ````html
 <html>
     <head>
@@ -37,7 +37,7 @@ O código Javascript também pode ser escrito num ficheiro externo com a extens�
 </html>
 ````
 
-## Variáveis
+## ☛  Variáveis
 "Variável" é um recurso em programação para armazenar um valor na memória do computador durante a execução de um algoritmo. 
 
 Em JS uma variável é declarada pela expressão `var`, `let` ou `const`.
