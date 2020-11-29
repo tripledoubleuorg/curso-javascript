@@ -163,7 +163,7 @@ function soma(x, y){
     return soma;
 }
 `````
-## ☛ Arrays
+## Arrays
 Um array é uma estrutura de dados armazenados numa única variável.
 
 ### Introdução ao Arrays
