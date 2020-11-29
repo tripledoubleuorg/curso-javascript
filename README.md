@@ -1,16 +1,16 @@
 # Javascript
 
 ## Conteúdos
-- [Introdução ao Javascript](#☛-introdução-ao-javascript)
-- [Adicionar Javascript](#adicionar-javascript)
-- [Primeiro Javascript](#primeiro-javascript)
-- [Variáveis](#variáveis)
-- [Tipos de variáveis](#tipos-de-variáveis)
-- [Operadores](#operadores)
-- [Condicionais](#condicionais)
-- [Funções](#funções)
-- [Arrays](#arrays)
-- [Loops](#loops)
+- [Introdução ao Javascript](#☛-☛-introdução-ao-javascript)
+- [Adicionar Javascript](#☛-adicionar-javascript)
+- [Primeiro Javascript](#☛-primeiro-javascript)
+- [Variáveis](#☛-variáveis)
+- [Tipos de variáveis](#☛-tipos-de-variáveis)
+- [Operadores](#☛-operadores)
+- [Condicionais](#☛-condicionais)
+- [Funções](#☛-funções)
+- [Arrays](#☛-arrays)
+- [Loops](#☛-loops)
 
 
 
