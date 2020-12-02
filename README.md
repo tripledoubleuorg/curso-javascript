@@ -62,8 +62,7 @@ Os indentificadores podem começar com uma letra, $ ou _; Não podem começar co
 - total tem o valor de 15;
 
 ### var VS let VS const
-- `var` – o seu valoerpode ser sempre alterado
-- `let` – só funciona no seu escopo e o seu valor pode ser alterado
+- `var`, `let` – o seu valor pode ser alterado
 - `const`– o seu valor não pode ser alterado
 
 ## Tipos de variáveis
@@ -105,7 +104,7 @@ Variável vectorial que armazena vários valores de um objecto.
 ````
 
 ## Operadores 
-
+### Aritméticos
 - `+` adição 
 - `-` subtração
 - `*` multiplicação 
@@ -113,6 +112,19 @@ Variável vectorial que armazena vários valores de um objecto.
 - `**` exponencial 
 - `++` incrementação
 - `--` decrementação
+
+### Relacionais
+- `>` maior 
+- `<` menor
+- `>=` maior ou igual
+- `<=` menor ou igual
+- `==` igual
+- `!=` diferente
+
+### Lógicos
+- `!` não (operador unário)
+- `&&` e (conjunção)
+- `||` ou (dijunção)
 
 ## Condicionais
 Uma condicional avalia se determinada afirmação é verdadeira ou falsa. No Javascript a condicional mais comum é a `if... else`.
@@ -223,13 +235,6 @@ animais.shift();
 console.log(animais) //leão, girafa, cão
 `````
 
-### splice()
-O método `splice()` altera, apaga e insere elementos no array.
-````Javascript
-array.splice(indice[, deleteCount[, elemento1[, ...[, elementoN]]])
-````
-
-
 ## Loops
 Loops são estruturas de repetição.
 
@@ -243,7 +248,7 @@ while (condição) {
 `````Javascript
 var i = 0;
 while(i < 10){
-    console.log(i);
+    console.log(i); //0,1,2,3,4,5,6,7,8,9
     i++;
 }
 `````
@@ -257,7 +262,7 @@ for (começo; condição; incrementação) {
 
 `````Javascript
 for(var i = 0; i < 10; i++){
-    console.log(i);
+    console.log(i);//0,1,2,3,4,5,6,7,8,9
 }
 `````
 
