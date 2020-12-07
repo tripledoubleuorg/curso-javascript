@@ -195,11 +195,10 @@ var animais = ['elefante', 'leão', 'girafa', 'cão'];
 #### Aceder a um elemento do array
 Para aceder a um elemento do array deve-se utilizar o index do ele.
 ````` Javascript
-var elefante = array[0] 
-console.log(elefante)  //elefante;
 
-var cao = array[3] 
-console.log(cao) //cão
+var animais = ['elefante', 'leão', 'girafa', 'cão'];
+console.log(animais[0])  //elefante;
+console.log(animais[3]) //cão
 `````
 
 ### Metodos 
@@ -207,7 +206,7 @@ console.log(cao) //cão
 Acrescenta elementos no final do array.
 ````` Javascript
 var animais = ['elefante', 'leão'];
-animais.push('elefante', 'leão');
+animais.push('girafa', 'cão');
 console.log(animais) //elefante, leão, girafa, cão
 `````
 
