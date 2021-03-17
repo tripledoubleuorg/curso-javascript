@@ -32,14 +32,71 @@ O `DOM` significa `Modelo de Documento por Objetos`, ou seja, é a interface que
 O JavaScript pode manipular de forma dinâmica o HTML
 
 ### Mudar o output do HTML
+Para mudar o output do HTML utiliza-se o método `document.write()`.
 
-### Mudar o conteúdo do HTML
+`````Html
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            document.write('Hello World!');
+        </script>
+    </body>
+</html>
+`````
+
+### Mudar o conteúdo de um elemento HTML
+Para mudar o contéudo de um elemento HTML utiliza-se a propriedade `.innerHTML`.
+
+`````Html
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Título</h1>
+        <script>
+        document.querySelector('h1').innerHTML = 'Hello World!';
+        </script>
+    </body>
+</html>
+`````
 
 ### Mudar o valor de um atributo
+Para mudar o contéudo de um atibuto utiliza-se a propriedade com o nome do atributo.
 
-## Manipulação do CSS
+`````Html
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <a href="https://site1.com"></a>      
+        <script>
+        document.querySelector('a').href = 'https://site2.com';
+        </script>
+    </body>
+</html>
+`````
 
-### Mudar estilos de css
+### Manipulação do CSS
+Para mudar os estilos de um elemento HTML utiliza-se a propriedade `.style` seguida da propriedade com o nome do estilo. Em JavaScript a sintaxe das propriedade de estilos é ligeiramente diferente da sintaxe do CSS:
+
+`````Html
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Título</h1>
+        <script>
+        document.querySelector('h1').style.color = 'red';
+        </script>
+    </body>
+</html>
+`````
 
 ## Eventos
 
