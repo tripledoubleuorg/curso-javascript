@@ -73,7 +73,7 @@ Sequência de caracteres colocados entre `""`.
 ````Javascript
      let nome = "João";
      let sobrenome = "Oliveira";
-     let nomeCompleto = nome + ' ' + sobrenome;
+     let nomeCompleto = nome + ' ' + sobrenome; //João Oliveira
 ````
 
 #### Template Strings
@@ -83,13 +83,13 @@ Sequência de caracteres colocados entre `""`.
      let sobrenome = "Oliveira";
      let anos = 30;  
      
-     let frase = `${nome} ${sobrenome} tem ${anos}.`;
+     let frase = `O ${nome} ${sobrenome} tem ${anos} anos.`; //O João Oliveira tem 30 anos.
 ````
 
 ### Número
 Dados numéricos que podem ser do tipo inteiro ou float (decimal).
 ````Javascript
-     let anos = 30
+     let anos = 30;
 ````
 
 ### Boolean
