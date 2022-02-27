@@ -8,14 +8,14 @@
 - Operadores
 - Condicionais
 - Funções
-- Loops
+- Estruturas de repetição
 
 
 ## Introdução ao Javascript
-Javascript [JS] é uma linguagem de programação "client-side" que permite adicionar comportamentos aos elementos HTML.
+Javascript [JS] é uma linguagem de programação "client-side" que permite adicionar comportamentos aos elementos HTML. Esta linguagem é fundamental para o desenvolvimento web.
 
-## ES6+
-
+## ES6
+Em 2015 houve a segunda maior revisão do Javascript a que se dá o nome de ECMAScript 2015, ES6 ou ECMAScript 6. Nesta revisão foram acrescentadas vários novos recursos e funcionalidades tornando o Javascript mais acessível, versátil e limpo.
 
 ## Adicionar o Javascript
 ### Interno
@@ -82,32 +82,39 @@ Sequência de caracteres colocados entre `""`.
 ````Javascript
      let nome = "João";
      let sobrenome = "Oliveira";
-     let nomeCompleto = nome + ' ' + sobrenome;
+     let anos = 30;  
+     
+     let frase = `${nome} ${sobrenome} tem ${anos}.`;
 ````
 
 ### Número
 Dados numéricos que podem ser do tipo inteiro ou float (decimal).
+````Javascript
+     let anos = 30
+````
 
 ### Boolean
 Tipo de dados que varia entre `verdadeiro` e `falso`.
+````Javascript
+     let verdadeiro = true;
+     let falso = false;
+````
 
 ### Array
 Coleação de dados armazenada em forma de lista.
-[ver mais]
 ````Javascript
-     ['João', 'Maria', 'Sara'];
+     let alunos = ['João', 'Maria', 'Sara'];
 ````
 
 ### Objeto
 Coleção de propriedades e métodos que associam uma chave a um valor.
 ````Javascript
-    {
+    let aluno = {
         nome: 'Sara',
         idade: 30,
         altura: 1.65,
     };
 ````
-
 
 ## Operadores 
 ### Aritméticos
@@ -138,7 +145,6 @@ atribuição de subtração | x -= y | x = x - y
 - `<=` menor ou igual
 - `==` igual
 - `!=` diferente
-
 
 ### Lógicos
 - `!` não (operador unário)
@@ -204,8 +210,7 @@ function cambio(dolar){
 cambio(10); // 8.3
 `````
 
-## Loops
-Loops são estruturas de repetição.
+## Estruturas de repetição
 
 ### For
 O `for` é uma estrutura de repetição recebe três argumentos:
