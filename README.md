@@ -3,18 +3,18 @@
 ## Conteúdos
 - Introdução 
 - Adicionar 
-- Dados
 - Variáveis
+- Estrutura de Dados
 - Operadores
 - Condicionais
 - Funções
 - Loops
-- Propriedades
-- Metodos
 
 
 ## Introdução ao Javascript
 Javascript [JS] é uma linguagem de programação "client-side" que permite adicionar comportamentos aos elementos HTML.
+
+## ES6+
 
 
 ## Adicionar o Javascript
@@ -36,11 +36,54 @@ O código JS pode ser adicionado a uma página HTML dentro da tag `<script>[cont
 ### Externo
 O código JS também pode ser escrito num ficheiro externo com a extensão `.js` e adicionado através do atributo `src=""` à tag `<script src="[caminho relativo]"></script>`.
 
-## Estruturas de dados built-in
+## Variáveis
+"Variável" é um recurso em programação para armazenar um valor na memória do computador durante a execução de um algoritmo. Em JS uma variável pode ser declarada pela expressão `var`, `let` ou `const`.
+
+````Javascript
+let identificador = valor;
+````
+
+Os valores associdos a variáveis declaradas pelas expressões `var` e `let` podem ser alterados, enquando os valores associdos a variáveis `const` não podem ser alterados.
+
+Os indentificadores podem começar com uma letra, $ ou _; Não podem começar com números; Não podem conter espaços; Não podem ser palavras que já façam parte da linguagem JS (ex: alert). 
+
+````
+    let x = 5;
+    let y = 10;
+    let total = x + y;
+````
+
+- x tem o valor 5;
+- y tem o valor 10;
+- total tem o valor de 15;
+
+## Estruturas de dados
 Uma estrutura de dados é um conjunto de valores ou de operações. As principais estruturas de dados definidas por defeito no JS são:
 
 ### String
 Sequência de caracteres colocados entre `""`.
+
+````Javascript
+     let nome = "João";
+     let sobrenome = "Oliveira";
+````
+Sequência de caracteres colocados entre `""`.
+
+#### Concatenar
+
+````Javascript
+     let nome = "João";
+     let sobrenome = "Oliveira";
+     let nomeCompleto = nome + ' ' + sobrenome;
+````
+
+#### Template Strings
+
+````Javascript
+     let nome = "João";
+     let sobrenome = "Oliveira";
+     let nomeCompleto = nome + ' ' + sobrenome;
+````
 
 ### Número
 Dados numéricos que podem ser do tipo inteiro ou float (decimal).
@@ -64,26 +107,6 @@ Coleção de propriedades e métodos que associam uma chave a um valor.
         altura: 1.65,
     };
 ````
-
-
-## Variáveis
-"Variável" é um recurso em programação para armazenar um valor na memória do computador durante a execução de um algoritmo. Em JS uma variável pode ser declarada pela expressão `var`.
-
-````Javascript
-var identificador = valor;
-````
-
-Os indentificadores podem começar com uma letra, $ ou _; Não podem começar com números; Não podem conter espaços; Não podem ser palavras que já façam parte da linguagem JS (ex: alert). 
-
-````
-    var x = 5;
-    var y = 10;
-    var total = x + y;
-````
-
-- x tem o valor 5;
-- y tem o valor 10;
-- total tem o valor de 15;
 
 
 ## Operadores 
@@ -233,39 +256,6 @@ while(i > 10){
     console.log(i);
     i /= 15;
 }
-`````
-
-## Propriedades
-As propriedades são variavéis associadas a um objeto.
-`````Javascript
-var aluno = {
-    nome: 'João',
-    idade: 20,
-    inscrito: true,
-}
-
-aluno.nome // João
-aluno.idade // 20
-aluno.inscrito // true
-`````
-
-## Métodos
-Os métodos são funções associadas a objeto.
-`````Javascript
-var aluno = {
-    nome: 'João',
-    idade: 20,
-    inscrito: true,
-    modulos: 4,
-    mensalidade: function(valor) {
-        return valor * this.modulos;
-    },
-}
-
-aluno.nome // João
-aluno.idade // 20
-aluno.inscrito // true
-aluno.mensalidade(10) // 40
 `````
 
 
