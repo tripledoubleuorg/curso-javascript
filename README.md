@@ -43,7 +43,7 @@ O código JS também pode ser escrito num ficheiro externo com a extensão `.js`
 let identificador = valor;
 ````
 
-Os valores associdos a variáveis declaradas pelas expressões `var` e `let` podem ser alterados, enquando os valores associdos a variáveis `const` não podem ser alterados.
+Os valores associados a variáveis declaradas pelas expressões `var` e `let` podem ser alterados, enquando os valores associados a variáveis `const` não podem ser alterados.
 
 Os indentificadores podem começar com uma letra, $ ou _; Não podem começar com números; Não podem conter espaços; Não podem ser palavras que já façam parte da linguagem JS (ex: alert). 
 
