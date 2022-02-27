@@ -67,7 +67,6 @@ Sequência de caracteres colocados entre `""`.
      let nome = "João";
      let sobrenome = "Oliveira";
 ````
-Sequência de caracteres colocados entre `""`.
 
 #### Concatenar
 
