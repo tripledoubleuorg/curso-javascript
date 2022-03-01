@@ -3,7 +3,7 @@
 ## Conteúdos
 - Introdução 
 - Adicionar 
-- Variáveis
+- Variáveis e Constantes
 - Estrutura de Dados
 - Operadores
 - Condicionais
@@ -36,18 +36,13 @@ O código JS pode ser adicionado a uma página HTML dentro da tag `<script>[cont
 ### Externo
 O código JS também pode ser escrito num ficheiro externo com a extensão `.js` e adicionado através do atributo `src=""` à tag `<script src="[caminho relativo]"></script>`.
 
-## Variáveis
+## Variáveis e Constantes
 "Variável" é um recurso em programação para armazenar um valor na memória do computador durante a execução de um algoritmo. Em JS uma variável pode ser declarada pela expressão `var`, `let` ou `const`.
 
 ````Javascript
 let identificador = valor;
 ````
-
-Os valores associados a variáveis declaradas pelas expressões `var` e `let` podem ser alterados, enquando os valores associados a variáveis `const` não podem ser alterados.
-
-Os indentificadores podem começar com uma letra, $ ou _; Não podem começar com números; Não podem conter espaços; Não podem ser palavras que já façam parte da linguagem JS (ex: alert). 
-
-````
+````Javascript
     let x = 5;
     let y = 10;
     let total = x + y;
@@ -56,6 +51,19 @@ Os indentificadores podem começar com uma letra, $ ou _; Não podem começar co
 - x tem o valor 5;
 - y tem o valor 10;
 - total tem o valor de 15;
+
+Os valores associados a variáveis declaradas pelas expressões `var` e `let` podem ser alterados, enquando os valores associados a variáveis `const` não podem ser alterados.
+
+Os indentificadores podem começar com uma letra, $ ou _; Não podem começar com números; Não podem conter espaços; Não podem ser palavras que já façam parte da linguagem JS (ex: alert). 
+
+### Camel Case
+A linguagem JS utiliza como o padrão o Camel Case: uma maneira de escrever palavras compostas em que a primeira letra de cada palavra é maiúscula.
+
+````
+    let nome = "João";
+    let sobrenome = "Oliveira";
+    let nomeCompleto = nome + ' ' + sobrenome;
+````
 
 ## Estruturas de dados
 Uma estrutura de dados é um conjunto de valores ou de operações. As principais estruturas de dados definidas por defeito no JS são:
