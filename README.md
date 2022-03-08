@@ -325,7 +325,7 @@ document.getElementsByTagName();
 
 #### Por Classe
 
-Selecciona todos os elementos que tenham determinada classe.
+Selecciona todos os elementos que tenham determinada Classe.
 
 ```Javascript
 document.getElementsByClassName();
@@ -349,7 +349,7 @@ Os eventos podem ser colocados no HTML ou no JavaScript.
 
 #### HTML
 
-No caso do HTML tem que se colocar ‘on’ antes do nome do evento.
+No caso do HTML é um atributo e tem que se colocar ‘on’ antes do nome do evento.
 
 ```html
 <div onclick="funcao()">Clicar</div>
