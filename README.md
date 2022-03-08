@@ -281,7 +281,6 @@ Uma propriedade de um objecto é uma variável associada que permite aceder a de
 `````Javascript
 var nome = "Sara"
 console.log(nome.lenght); // 4
-}
 `````
 
 ### Métodos
@@ -291,7 +290,7 @@ Um médoto de um objecto é uma função associada que executa uma acção.
 `````Javascript
 var nome = "Sara"
 console.log(nome.toUpperCase()); // SARA
-}
+`````
 
 
 
