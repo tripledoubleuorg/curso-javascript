@@ -328,7 +328,7 @@ document.getElementsByTagName();
 Selecciona todos os elementos que tenham determinada classe.
 
 ```Javascript
-document.getElementsByClassNam();
+document.getElementsByClassName();
 ```
 
 #### Por Selector
@@ -343,10 +343,9 @@ document.querySelector(); //devolve o primeiro elemento que tenha o selector
 ### Eventos
 
 Eventos são todas as reações que um elemento possa ter. 
-
-Lista de eventos: [https://developer.mozilla.org/pt-BR/docs/Web/Events](https://developer.mozilla.org/pt-BR/docs/Web/Events)
-
 Os eventos podem ser colocados no HTML ou no JavaScript. 
+
+[Lista de eventos](https://developer.mozilla.org/pt-BR/docs/Web/Events)
 
 #### HTML
 
