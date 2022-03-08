@@ -10,6 +10,7 @@
 - Funções
 - Estruturas de repetição
 - Objectos
+- DOM
 
 
 
@@ -293,5 +294,73 @@ console.log(nome.toUpperCase()); // SARA
 `````
 
 
+## DOM Javascript
 
+### O que é o DOM?
+
+Document Object Model é o conjunto de objectos que constituem um website e que permite o acesso aos diferentes componentes. Por outras palavras, é a árvore de elementos em que a raiz é a “window”.
+
+```Javascript
+window.document.URL; //url da págiina
+window.document.write('Hello World'); //escreve na tela 'Hello World'
+```
+
+### Principais Seleccionadores
+
+#### Por ID
+
+Selecciona o elemento que tenha determinado ID.
+
+```Javascript
+document.getElementByID();
+```
+
+#### Por Tag
+
+Selecciona todos os elementos que tenham determinada Tag.
+
+```Javascript
+document.getElementsByTagName();
+```
+
+#### Por Classe
+
+Selecciona todos os elementos que tenham determinada classe.
+
+```Javascript
+document.getElementsByClassNam();
+```
+
+#### Por Selector
+
+Selecciona a partir de elementos do CSS
+
+```Javascript
+document.querySelectorAll(); //devolve uma NodeList
+document.querySelector(); //devolve o primeiro elemento que tenha o selector
+```
+
+### Eventos
+
+Eventos são todas as reações que um elemento possa ter. 
+
+Lista de eventos: [https://developer.mozilla.org/pt-BR/docs/Web/Events](https://developer.mozilla.org/pt-BR/docs/Web/Events)
+
+Os eventos podem ser colocados no HTML ou no JavaScript. 
+
+#### HTML
+
+No caso do HTML tem que se colocar ‘on’ antes do nome do evento.
+
+```html
+<div onclick="funcao()">Clicar</div>
+```
+
+#### JavaScript
+
+No JavaScript utiliza-se o método `addEventListener()`.
+
+```Javascript
+document.querySelector('div').addEventListener('click', funcao);
+```
 
