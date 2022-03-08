@@ -9,6 +9,8 @@
 - Condicionais
 - Funções
 - Estruturas de repetição
+- Objectos
+
 
 
 ## Introdução ao Javascript
@@ -270,8 +272,26 @@ while(i > 10){
 }
 `````
 
+## Objectos
+O JavaScript é uma linguagem orientada a objectos o que significa que é composta por colecções de propriedades e métodos chamadas de 'objectos'. 
+
+### Propriedades
+Uma propriedade de um objecto é uma variável associada que permite aceder a determidado dado desse objecto.
+
+`````Javascript
+var nome = "Sara"
+console.log(nome.lenght); // 4
+}
+`````
+
+### Métodos
+Um médoto de um objecto é uma função associada que executa uma acção.
 
 
+`````Javascript
+var nome = "Sara"
+console.log(nome.toUpperCase()); // SARA
+}
 
 
 
