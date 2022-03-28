@@ -363,3 +363,31 @@ No JavaScript utiliza-se o método `addEventListener()`.
 document.querySelector('div').addEventListener('click', funcao);
 ```
 
+### Dimensões e Distâncias
+
+#### Window
+```Javascript
+   window.innerWitdh; // largura da janela
+   window.innerHeight; // altura da janela
+   
+   window.pageYOffset; // distância do scroll vertical
+   window.pageXOffset; // distância do scroll horizontal
+```
+
+#### Elementos
+```Javascript
+const div = document.querySelector('div');
+
+div.clientHeight; // height + padding
+div.offHeight; // height + padding + border
+div.scrollHeight; // height incluindo scroll
+
+div.offsetTop; // distância do elemento ao topo da página
+div.offsetLeft; // distância do lado esquerdo do elemento ao lado esquerdo da página
+
+const rec = div.getBoundingClientRect(); método que retorna um objecto com informações sobre tamanhos e distâncias do elemento
+rect.height; // altura do elememto
+rect.right; // distância do lado direito do elemento ao lado direito da página
+```
+
+
