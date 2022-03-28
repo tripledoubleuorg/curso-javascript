@@ -385,7 +385,7 @@ div.scrollHeight; // height incluindo scroll
 div.offsetTop; // distância do elemento ao topo da página
 div.offsetLeft; // distância do lado esquerdo do elemento ao lado esquerdo da página
 
-const rec = div.getBoundingClientRect(); método que retorna um objecto com informações sobre tamanhos e distâncias do elemento
+const rec = div.getBoundingClientRect(); // método que retorna um objecto com informações sobre tamanhos e distâncias do elemento
 rect.height; // altura do elememto
 rect.right; // distância do lado direito do elemento ao lado direito da página
 ```
